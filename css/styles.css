@@ -181,7 +181,7 @@ a:hover, a:focus { color: #3dc9b3; text-decoration: none; }
 p { color: #8c9398; word-spacing: 1px; line-height: 25px; font-size: 14px; }
 h2 { font-size: 15px; color: #353535; text-transform: uppercase; font-weight: bold; }
 h2::after { content: " "; border: solid 2px #3dc9b3; display: block; width: 35px; margin: 25px auto; }
-h9::after { content: " "; border: solid 2px #f07057; display: block; width: 200px; margin-top: 15px;}
+h9::after { content: " "; border: solid 2px #f07057; display: block; width: 135px; margin-top: 15px;}
 .section-padding { padding: 90px 0 100px }
 .section2-padding { padding: 110px 0 150px }
 .dark-bg { background: #f3f5f8; }
