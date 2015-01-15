@@ -54,7 +54,7 @@ h5 { font-size: 0.83em; margin: 1.67em 0; }
 h6 { font-size: 0.75em; margin: 2.33em 0; }
 
 h7 { font-family: 'great vibes'; font-size: 1.5em; margin: 2.33em 0; }
-h8 { font-family: 'lato'; font-size: 2em; margin: 2.33em 0; color: #efefef }
+h8 { font-family: 'lato'; font-weight:300; font-size: 2em; margin: 2.33em 0; color: #efefef }
 h9 { font-family: 'lato-bold'; font-size: 2em; margin: 2.33em 0; color: #f07057 }
 h10 { font-family: 'lato'; font-size: 1em; margin: 2.33em 0; color: #58595b }
 /* * Addresses styling not present in IE 7/8/9, Safari 5, and Chrome. */
