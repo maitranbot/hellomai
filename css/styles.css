@@ -29,7 +29,7 @@ html { font-size: 100%; /* 1 */
 html, html a { -webkit-font-smoothing: antialiased; text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.004); }
 /* * Addresses `font-family` inconsistency between `textarea` and other form
 * elements. */
-html, button, input, select, textarea { font-family: 'Varela Round', sans-serif; }
+html, button, input, select, textarea { font-family: 'lato', sans-serif; }
 /* * Addresses margins handled incorrectly in IE 6/7. */
 body { margin: 0; font-family: 'lato-light', sans-serif; }
 /* ==========================================================================
@@ -315,6 +315,15 @@ Contact
 .contact-details h2 { font-size: 20px; }
 .contact-details h2 span { display: block; color: #3dc9b3; text-transform: uppercase; letter-spacing: 1px; font-size: 14px; margin-top: 15px; }
 .contact-wrap { position: relative; }
+
+/* ==========================================================================
+Contact Me
+========================================================================== */
+
+.contactme h1 { font-size: 1.75em; letter-spacing: 5px; margin: 10px; line-height: 1.5em; }
+.contactme h1 span { color: #a1a9b0; display: inline-block; }
+.contactme p { letter-spacing: 50px;  }
+
 /* ==========================================================================
 Footer
 ========================================================================== */
