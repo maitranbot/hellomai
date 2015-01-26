@@ -337,6 +337,33 @@ Contact Me
 .contactme h1 span { color: #a1a9b0; display: inline-block; }
 .contactme p { letter-spacing: 50px;  }
 
+
+/* ==========================================================================
+Bootstrap tester2
+========================================================================== */
+
+.bootstraptester2 h1 { font-family: lato; font-weight:300; font-size: 1.75em; letter-spacing: 5px; margin: 10px; line-height: 1.5em; }
+.bootstraptester2 h1 span { color: #a1a9b0; display: inline-block; }
+.bootstraptester2 p { letter-spacing: 50px;  }
+.bt4 {border-width: 1; border-color: #000000; background-color: #fff000}
+.bt5 {background-color: #ed205a}
+.bt6 {background-color: #4ed889}
+
+
+/* ==========================================================================
+Bootstrap tester
+========================================================================== */
+
+.bootstraptester { padding:0;}
+.bootstraptester h1 { font-family: lato; font-weight:300; font-size: 1.75em; letter-spacing: 5px; margin: 10px; line-height: 1.5em; }
+.bootstraptester h1 span { color: #a1a9b0; display: inline-block; }
+.bootstraptester p { letter-spacing: 50px;  }
+.bt1 {background-color: #fff000}
+.bt2 {background-color: #ed205a}
+.bt3 {background-color: #4ed889}
+
+
+
 /* ==========================================================================
 Footer
 ========================================================================== */
