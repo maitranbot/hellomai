@@ -357,6 +357,8 @@ Contact Me
 .contactme h1 span { color: #a1a9b0; display: inline-block; }
 .contactme p { letter-spacing: 50px;  }
 
+/* modified contact text sizes for smaller screens */
+@media (max-width:480px) {.contactme {font-size: .75em;}}
 
 /* ==========================================================================
 Bootstrap tester2
@@ -373,7 +375,7 @@ Bootstrap tester2
 
 
 /* ==========================================================================
-Bootstrap tester
+Bootstrap tester PORTFOLIO AREA B
 ========================================================================== */
 
 .bootstraptester { padding:0;}
@@ -384,6 +386,24 @@ Bootstrap tester
 .bt2 {background-color: #ed205a}
 .bt3 {background-color: #4ed889}
 
+/* ==========================================================================
+PORTFOLIO STYLE SUPPLEMENTAL - TEST
+========================================================================== */
+
+.portgrid { background: url('../img/portfolio-01.jpg') no-repeat center center; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover; padding: 65px 0 300px 0; height: auto; }
+.portgrid h9 { font-size: 2em; }
+.portgrid h9 span { margin: 10px; color: #a1a9b0; display: inline-block; text-align: right }
+.portgrid p { letter-spacing: 1px; }
+.portgrid h10 { font-family: 'lato'; font-size: 1em; margin: 2.33em 0; color: #58595b }
+
+/* compensate for bootstrap fluid column padding */
+.responsivepadding {padding-left: -15px; padding-right: -15px;}
+.nogutter > [class*='col-'] {padding-right:0; padding-left:0;}
+
+
+/*modified bootstrap for 480 thumbnails */
+@media (max-width:480px) {.twostack .col-xs-6{width:100%;}}
+    
 
 /* ==========================================================================
 CONNECT
@@ -395,18 +415,6 @@ CONNECT
 
 
 
-/* ==========================================================================
-Portfolio Grid
-========================================================================== */
-
-.portgrid { background: url('../img/portfolio-01.jpg') no-repeat center center; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover; padding: 65px 0 300px 0; height: auto; }
-.portgrid h9 { font-size: 2em; }
-.portgrid h9 span { margin: 10px; color: #a1a9b0; display: inline-block; text-align: right }
-.portgrid p { letter-spacing: 1px; }
-.portgrid h10 { font-family: 'lato'; font-size: 1em; margin: 2.33em 0; color: #58595b }
-
-.responsivepadding {padding-left: -15px; padding-right: -15px;}
-.nogutter > [class*='col-'] {padding-right:0; padding-left:0;}
 
 /* ==========================================================================
 Footer
@@ -424,11 +432,9 @@ ul.legals li:last-child::after { content: ""; }
 .footer span{font-style: italic;}
 .footertxt h1 {letter-spacing:0; text-align:center; font-size: 1em; color:#a1a9b0;}
 .footertxt span{font-style: italic;}
-@media (max-width:480px) {.contactme {font-size: .75em;}
 
-    
-/*modified bootstrap for 480 thumbnails */
-@media (max-width:480px) {.twostack .col-xs-6{width:100%;}
+
+
     
 /* ==========================================================================
 FlexSlider Custom CSS
