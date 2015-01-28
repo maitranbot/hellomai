@@ -108,6 +108,8 @@ img { border: 0; /* 1 */
 -ms-interpolation-mode: bicubic; /* 2 */ }
 /* * Corrects overflow displayed oddly in IE 9. */
 svg:not(:root) { overflow: hidden; }
+
+
 /* ==========================================================================
 Figures
 ========================================================================== */
@@ -225,7 +227,7 @@ nav ul li a:hover, nav ul li a:focus { text-decoration: none; color: rgba(255, 2
 /* ==========================================================================
 Hero
 ========================================================================== */
-.hero { background: url('../img/hero-bg.jpg') no-repeat center center; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover; padding: 65px 0 300px 0; height: auto; }
+.hero { background: url('../img/hero-bg.jpg') no-repeat center center; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover; padding: 65px 0 300px 0; height: auto;}
 .hero h1 { font-family: 'lato'; font-weight:300; font-size: 40px; color: ; letter-spacing: 12px; margin: 10px; }
 .hero h1 span { font-weight:300; color: #a1a9b0; display: inline-block; }
 .hero p { letter-spacing: 1px; }
@@ -233,10 +235,14 @@ Hero
 .learn-more-btn { background: rgba(61, 201, 179, 1); padding: 20px 40px; border-radius: 5px; -moz-border-radius: 5px; -webkit-border-radius: 5px; -o-border-radius: 5px; color: #fff; text-transform: uppercase; letter-spacing: 1px; display: inline-block; -webkit-box-shadow: 0px 3px 0px 0px #309383; -moz-box-shadow: 0px 3px 0px 0px #309383; box-shadow: 0px 3px 0px 0px #309383; margin: 60px 0 0; font-weight: bold; }
 .learn-more-btn:hover, .learn-more-btn:focus { background: rgba(61, 201, 179, 0.6); color: #fff; }
 
+
+
+
 /* ==========================================================================
 Intro
 ========================================================================== */
 
+.intro {z-index: 2; position:relative;}
 .intro h8 { font-family: 'lato'; font-weight:400; font-size: 2em; margin: 2.33em 0; }
 
 /* ==========================================================================
@@ -294,15 +300,26 @@ a.expand { display: block; position: absolute; z-index: 100; text-align: center;
 .img img { width: -webkit-calc(100% + 40px) !important; width: calc(100% + 40px) !important; -webkit-transition: opacity 0.35s, -webkit-transform 0.35s; transition: opacity 0.35s, transform 0.35s; -moz-transition: opacity 0.35s, -moz-transform 0.35s; -o-transition: opacity 0.35s, -o-transform 0.35s; -webkit-transform: translate3d(-40px, 0, 0); transform: translate3d(-40px, 0, 0); -ms-transform: translate3d(-40px, 0, 0); }
 .img:hover img { -webkit-transform: translate3d(0, 0, 0); transform: translate3d(0, 0, 0); -ms-transform: translate3d(-40px, 0, 0); }
 .designs { position: absolute; left: 0; right: 0; margin-left: auto; margin-right: auto; top: 50px; }
+
+
+.portfoliotext{text-align:center;}
+.pplogo{margin-bottom: 40px;}
+
 /* ==========================================================================
 Subscribe
 ========================================================================== */
+/*
 .subscribe { background: url('../img/keyboard-bg.jpg') no-repeat center center; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover; background-attachment: fixed; padding: 120px 0 140px; }
-.subscribe h1 { color: #fff; margin-bottom: 40px; }
+/* .subscribe h1 { color: #fff; margin-bottom: 40px; }
 .subscribe h1 span { display: block; font-size: 15px; text-transform: uppercase; font-weight: bold; margin-top: 20px; letter-spacing: 1px; }
+
+.subscribe h1 { font-family: "lato"; font-weight: 300; font-size: 1.75em; margin: 0.67em 0; color: #ffffff; letter-spacing: 5px; line-height: 1.5em; text-transform: uppercase;}
+
 .subscribe input[type=text] { background-color: rgba(255, 255, 255, 0.1); border: solid 1px #fff; padding: 20px; width: 30%; color: #fff; }
+
 .subscribe input[type=submit] { background: rgba(61, 201, 179, 0.5); border: solid 1px rgba(61, 201, 179, 0.5); padding: 20px; color: #fff; text-transform: uppercase; letter-spacing: 1px; transition: all 0.5s ease; -moz-transition: all 0.5s ease; -webkit-transition: all 0.5s ease; -o-transition: all 0.5s ease; }
 .subscribe input[type=submit]:hover { background: rgba(61, 201, 179, 1); border: solid 1px rgba(61, 201, 179, 1); color: #fff; }
+*/
 /* ==========================================================================
 CTA
 ========================================================================== */
@@ -349,6 +366,7 @@ Bootstrap tester2
 .bt5 {background-color: #ed205a}
 .bt6 {background-color: #4ed889}
 .psg {border:1px solid black; margin:1%;}
+.fpo {background-color: #4ed889; height: 100%;}
 
 
 /* ==========================================================================
@@ -364,6 +382,28 @@ Bootstrap tester
 .bt3 {background-color: #4ed889}
 
 
+/* ==========================================================================
+CONNECT
+========================================================================== */
+
+.connect { background: url('../img/keyboard-bg.jpg') no-repeat center center; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover; background-attachment: fixed; padding: 120px 0 140px; }
+
+.connect h1 { font-family: "lato"; font-weight: 300; font-size: 1.75em; margin: 0.67em 0; color: #ffffff; letter-spacing: 5px; line-height: 1.5em; text-transform: uppercase;}
+
+
+
+/* ==========================================================================
+Portfolio Grid
+========================================================================== */
+
+.portgrid { background: url('../img/portfolio-01.jpg') no-repeat center center; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover; padding: 65px 0 300px 0; height: auto; }
+.portgrid h9 { font-size: 2em; }
+.portgrid h9 span { margin: 10px; color: #a1a9b0; display: inline-block; text-align: right }
+.portgrid p { letter-spacing: 1px; }
+.portgrid h10 { font-family: 'lato'; font-size: 1em; margin: 2.33em 0; color: #58595b }
+
+.responsivepadding {padding-left: -15px; padding-right: -15px;}
+.nogutter > [class*='col-'] {padding-right:0; padding-left:0;}
 
 /* ==========================================================================
 Footer
@@ -377,6 +417,10 @@ ul.legals li::after { content: " |"; }
 ul.legals li:last-child::after { content: ""; }
 .legals { text-align: left; }
 .credit { text-align: right; }
+.footer h1 {text-align:center; font-size: 1em; color:#a1a9b0;}
+.footer span{font-style: italic;}
+.footertxt h1 {letter-spacing:0; text-align:center; font-size: 1em; color:#a1a9b0;}
+.footertxt span{font-style: italic;}
 /* ==========================================================================
 FlexSlider Custom CSS
 ========================================================================== */
