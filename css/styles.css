@@ -305,6 +305,9 @@ a.expand { display: block; position: absolute; z-index: 100; text-align: center;
 .portfoliotext{text-align:center;}
 .pplogo{margin-bottom: 40px;}
 
+
+
+
 /* ==========================================================================
 Subscribe
 ========================================================================== */
@@ -421,6 +424,12 @@ ul.legals li:last-child::after { content: ""; }
 .footer span{font-style: italic;}
 .footertxt h1 {letter-spacing:0; text-align:center; font-size: 1em; color:#a1a9b0;}
 .footertxt span{font-style: italic;}
+@media (max-width:480px) {.contactme {font-size: .25em;}
+
+    
+/*modified bootstrap for 480 thumbnails */
+@media (max-width:480px) {.twostack .col-xs-6{width:100%;}
+    
 /* ==========================================================================
 FlexSlider Custom CSS
 ========================================================================== */
