@@ -424,7 +424,7 @@ ul.legals li:last-child::after { content: ""; }
 .footer span{font-style: italic;}
 .footertxt h1 {letter-spacing:0; text-align:center; font-size: 1em; color:#a1a9b0;}
 .footertxt span{font-style: italic;}
-@media (max-width:480px) {.contactme {font-size: .25em;}
+@media (max-width:480px) {.contactme {font-size: .75em;}
 
     
 /*modified bootstrap for 480 thumbnails */
