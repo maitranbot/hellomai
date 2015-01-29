@@ -61,6 +61,9 @@ h9 { font-family: 'lato'; font-weight: 700; font-size: 2em; margin: 2.33em 0; co
 h10 { font-family: 'lato'; font-weight:300; font-size: 1em; margin: 2.33em 0; color: #58595b }
 
 
+
+
+
 /* * Addresses styling not present in IE 7/8/9, Safari 5, and Chrome. */
 abbr[title] { border-bottom: 1px dotted; }
 /* * Addresses style set to `bolder` in Firefox 3+, Safari 4/5, and Chrome. */
@@ -281,6 +284,13 @@ Swag
 .down-arrow-btn { width: 40px; height: 40px; border-radius: 50%; -moz-border-radius: 50%; -webkit-border-radius: 50%; -o-border-radius: 50%; background: rgba(61, 201, 179, 0.8); display: inline-block; margin: 10px auto 20px; color: #fff; font-size: 16px; line-height: 40px; text-align: center; }
 .down-arrow-btn:hover, .down-arrow-btn:focus { color: #fff; background: rgba(61, 201, 179, 1); }
 /* ==========================================================================
+SpareTime
+========================================================================== */
+.sparetime { background: url('../img/photo-1416339684178-3a239570f315.jpg') no-repeat center center; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover; background-attachment: fixed; padding: 25px 0; }
+.sparetime h4 { color: #fff; font-size: 1.5em; line-height:2em;}
+.sparetime span {font-size:.6em;}
+.thinbar {background-color: #f07057; height: 10px; vertical-align: top;}
+/* ==========================================================================
 Portfolio
 ========================================================================== */
 .effects { padding-left: 15px; }
@@ -405,6 +415,13 @@ Portfolio style supplemental - sandbox
 @media (max-width:480px) {.twostack .col-xs-6{width:100%;}}
     
 
+.row-eq-height {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display:         flex;
+}
+
 /* ==========================================================================
 Connect
 ========================================================================== */
@@ -429,9 +446,9 @@ ul.legals li:last-child::after { content: ""; }
 .legals { text-align: left; }
 .credit { text-align: right; }
 .footer h1 {text-align:center; font-size: 1em; color:#a1a9b0;}
-.footer span{font-style: italic;}
-.footertxt h1 {letter-spacing:0; text-align:center; font-size: 1em; color:#a1a9b0;}
-.footertxt span{font-style: italic;}
+.footer span{font-weight:700;}
+.footertxt h1 {font-family: lato; font-weight: 400; letter-spacing:0; text-align:center; font-size: 1em; color:#a1a9b0;}
+.footertxt span{font-weight:700;}
 
 
 
