@@ -375,7 +375,7 @@ Bootstrap tester2
 
 
 /* ==========================================================================
-Bootstrap tester PORTFOLIO AREA B
+Bootstrap tester - PORTFOLIO AREA B
 ========================================================================== */
 
 .bootstraptester { padding:0;}
@@ -387,7 +387,7 @@ Bootstrap tester PORTFOLIO AREA B
 .bt3 {background-color: #4ed889}
 
 /* ==========================================================================
-PORTFOLIO STYLE SUPPLEMENTAL - TEST
+Portfolio style supplemental - sandbox
 ========================================================================== */
 
 .portgrid { background: url('../img/portfolio-01.jpg') no-repeat center center; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover; padding: 65px 0 300px 0; height: auto; }
@@ -406,7 +406,7 @@ PORTFOLIO STYLE SUPPLEMENTAL - TEST
     
 
 /* ==========================================================================
-CONNECT
+Connect
 ========================================================================== */
 
 .connect { background: url('../img/keyboard-bg.jpg') no-repeat center center; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover; background-attachment: fixed; padding: 120px 0 140px; }
