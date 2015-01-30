@@ -408,11 +408,16 @@ Portfolio style supplemental - sandbox
 
 /* compensate for bootstrap fluid column padding */
 .responsivepadding {padding-left: -15px; padding-right: -15px;}
-.nogutter > [class*='col-'] {padding-right:0; padding-left:0;}
+.nogutter > [class*='col-'] {padding-right:0; padding-left:0; padding-top:0; padding-bottom:0;}
 
+
+/* coral div */
+.coraldiv {background-color:#f07057; height:100%;}
+.mintgreendiv {background-color:#abc4b5; height:100%;}
 
 /*modified bootstrap for 480 thumbnails */
 @media (max-width:480px) {.twostack .col-xs-6{width:100%;}}
+@media (max-width:480px) {.divstack {height:380px;}}
     
 
 .row-eq-height {
