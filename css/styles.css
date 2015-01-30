@@ -418,7 +418,8 @@ Portfolio style supplemental - sandbox
 /*modified bootstrap for 480 thumbnails */
 @media (max-width:480px) {.twostack .col-xs-6{width:100%;}}
 @media (max-width:480px) {.divstack {height:380px;}}
-    
+
+.portfoliodivtext .h9::after{align-items: center;}
 
 .row-eq-height {
   display: -webkit-box;
