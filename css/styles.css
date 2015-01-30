@@ -287,8 +287,8 @@ Swag
 SpareTime
 ========================================================================== */
 .sparetime { background: url('../img/photo-1416339684178-3a239570f315.jpg') no-repeat center center; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover; background-attachment: fixed; padding: 25px 0; }
-.sparetime h4 { color: #fff; font-size: 1.5em; line-height:2em;}
-.sparetime span {font-size:.6em;}
+.sparetime h4 { color: #fff; font-size: 1.25em; line-height:2em;}
+.sparetime span {font-weight: 700; letter-spacing: 1px;}
 .thinbar {background-color: #f07057; height: 10px; vertical-align: top;}
 /* ==========================================================================
 Portfolio
@@ -413,19 +413,48 @@ Portfolio style supplemental - sandbox
 
 /* coral div */
 .coraldiv {background-color:#f07057; height:100%;}
-.mintgreendiv {background-color:#abc4b5; height:100%;}
+.mintgreendiv {background-color:#abc4b4; height:100%;}
 
 /*modified bootstrap for 480 thumbnails */
 @media (max-width:480px) {.twostack .col-xs-6{width:100%;}}
 @media (max-width:480px) {.divstack {height:380px;}}
 
-.portfoliodivtext .h9::after{align-items: center;}
+.vxdtester{border:1px solid red;}
+.vxdparent{align-items: center; align-content: center}
 
 .row-eq-height {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
   display:         flex;
+}
+
+.Aligner {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.Aligner-item {
+  max-width: 50%;
+}
+
+.Aligner-item--top {
+  align-self: flex-start;
+}
+
+.Aligner-item--bottom {
+  align-self: flex-end;
+}
+.vxdparent {
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+}
+.vxdchild {
+    background-color: red; /* just for the demo */
+    display: inline-block;
+    text-align: left;
 }
 
 /* ==========================================================================
