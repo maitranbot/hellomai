@@ -59,7 +59,8 @@ h7 { font-size: 1.5em; margin: 2.33em 0; }
 h8 { font-family: 'lato'; font-weight:400; font-size: 2em; margin: 2.33em 0; color: #efefef }
 h9 { font-family: 'lato'; font-weight: 700; font-size: 2em; margin: 2.33em 0; color: #f07057 }
 h10 { font-family: 'lato'; font-weight:300; font-size: 1em; margin: 2.33em 0; color: #58595b }
-
+h11 { font-family: 'lato'; font-weight: 700; font-size: 2em; margin: 2.33em 0; color: #ffffff }
+h12 { font-family: 'lato'; font-weight:300; font-size: 1em; margin: 2.33em 0; color: #ffffff }
 
 
 
@@ -192,9 +193,11 @@ a:hover, a:focus { color: #3dc9b3; text-decoration: none; }
 p { color: #8c9398; word-spacing: 1px; line-height: 25px; font-size: 14px; }
 h2 { font-size: 15px; color: #353535; text-transform: uppercase; font-weight: bold; }
 h2::after { content: " "; border: solid 2px #3dc9b3; display: block; width: 35px; margin: 25px auto; }
-h9::after { content: " "; border: solid 2px #f07057; display: block; margin: 0 auto; width: 135px; margin-top: 15px;}
+h9::after { content: " "; border: solid 2px #f07057; display: block; width: 135px; margin-top: 15px;}
+h11::after { content: " "; border: solid 2px #FFFFFF; display: block; margin: 0 auto; width: 135px; margin-top: 15px;}
 .section-padding { padding: 90px 0 100px }
 .section2-padding { padding: 110px 0 150px }
+.dark-bg { background: #f3f5f8; }
 .dark-bg { background: #f3f5f8; }
 .light-bg { background-color: #fff; }
 .dark-box { background: #f3f5f8; -webkit-box-shadow: 0px 3px 0px 0px #f0f2f4; -moz-box-shadow: 0px 3px 0px 0px #f0f2f4; box-shadow: 0px 3px 0px 0px #f0f2f4; }
@@ -417,45 +420,106 @@ Portfolio style supplemental - sandbox
 
 /*modified bootstrap for 480 thumbnails */
 @media (max-width:480px) {.twostack .col-xs-6{width:100%;}}
+
+/* set height for mobile div container */
 @media (max-width:480px) {.divstack {height:380px;}}
 
-.vxdtester{border:1px solid red;}
-.vxdparent{align-items: center; align-content: center}
+/* set 50% height for double wide container */
+@media (min-width:720px) {.dblwide {width:200%;}}
 
-.row-eq-height {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display:         flex;
-}
+.vxdtesterstroke{border:1px solid red;}
 
-.Aligner {
+
+/*align items vertically -- .aligner=parent, .aligner-...=child */
+
+.aligner {
   display: flex;
   align-items: center;
   justify-content: center;
 }
-
-.Aligner-item {
+.aligner-item {
   max-width: 50%;
 }
 
-.Aligner-item--top {
+.aligner-item--top {
   align-self: flex-start;
 }
 
-.Aligner-item--bottom {
+.aligner-item--bottom {
   align-self: flex-end;
 }
-.vxdparent {
-    display: table-cell;
-    text-align: center;
-    vertical-align: middle;
+
+
+/*make container equal height. documentation http://codepen.io/imohkay/pen/gpard*/
+* {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	
+	box-sizing: border-box; 
 }
-.vxdchild {
-    background-color: red; /* just for the demo */
-    display: inline-block;
-    text-align: left;
+
+.eqWrap {
+	display: flex;
 }
+
+.eq {
+	padding: 10px;
+}
+
+/*
+.eq:nth-of-type(odd) {
+	background: yellow;
+}
+
+.eq:nth-of-type(even) {
+	background: lightblue;
+}
+*/
+
+.equalHW {
+	flex: 1;
+}
+
+.equalHMWrap {
+	justify-content: space-between;
+}
+
+/* .equalHM {
+	width: 32%;
+}
+*/
+
+.equalHMRWrap {
+	justify-content: space-between;
+	flex-wrap: wrap;
+}
+
+.equalHMR {
+	width: 32%;
+	margin-bottom: 2%;
+}
+
+.equalHMVWrap {
+	flex-wrap: wrap;
+}
+
+.equalHMV {
+	width: 32%;
+	margin: 1%;	
+}
+
+.equalHMV:nth-of-type(3n) {
+	margin-right: 0;	
+}
+
+.equalHMV:nth-of-type(3n+1) {
+	margin-left: 0;	
+}
+
+
+
+
+
 
 /* ==========================================================================
 Connect
