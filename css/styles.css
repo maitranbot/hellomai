@@ -59,7 +59,7 @@ h7 { font-size: 1.5em; margin: 2.33em 0; }
 h8 { font-family: 'lato'; font-weight:400; font-size: 2em; margin: 2.33em 0; color: #efefef }
 h9 { font-family: 'lato'; font-weight: 700; font-size: 2em; margin: 2.33em 0; color: #f07057 }
 h10 { font-family: 'lato'; font-weight:300; font-size: 1em; margin: 2.33em 0; color: #58595b }
-h11 { font-family: 'lato'; font-weight: 700; font-size: 2em; margin: 2.33em 0; color: pink }
+h11 { font-family: 'lato'; font-weight: 700; font-size: 2em; margin: 2.33em 0; color: #ffffff }
 h12 { font-family: 'lato'; font-weight:300; font-size: 1em; margin: 2.33em 0; color: #ffffff }
 
 
@@ -425,6 +425,9 @@ Portfolio style supplemental - sandbox
 @media (max-width:480px) {.divstack {height:380px;}}
 
 
+/*adjust vertical centering for smaller breakpoints */
+@media (max-width:480px) { .imggwrap .desc {top:75%;}}
+
 
 .vxdtesterstroke{border:1px solid red;}
 
@@ -435,7 +438,7 @@ Portfolio style supplemental - sandbox
 	  position:relative;
 	  float:left;
 	  clear:none;
-	  overflow:hidden;
+	  overflow:inherit;
 	}
 	.imggwrap img {
 	  position:relative;
@@ -445,7 +448,7 @@ Portfolio style supplemental - sandbox
 	  display:block;
 	  position:absolute;
 	  width:100%;
-	  top:40%;
+	  top:35%;
 	  left:0;
 	  z-index:2;
 	  text-align:center;
