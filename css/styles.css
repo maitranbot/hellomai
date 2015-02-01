@@ -59,7 +59,7 @@ h7 { font-size: 1.5em; margin: 2.33em 0; }
 h8 { font-family: 'lato'; font-weight:400; font-size: 2em; margin: 2.33em 0; color: #efefef }
 h9 { font-family: 'lato'; font-weight: 700; font-size: 2em; margin: 2.33em 0; color: #f07057 }
 h10 { font-family: 'lato'; font-weight:300; font-size: 1em; margin: 2.33em 0; color: #58595b }
-h11 { font-family: 'lato'; font-weight: 700; font-size: 2em; margin: 2.33em 0; color: #ffffff }
+h11 { font-family: 'lato'; font-weight: 700; font-size: 2em; margin: 2.33em 0; color: pink }
 h12 { font-family: 'lato'; font-weight:300; font-size: 1em; margin: 2.33em 0; color: #ffffff }
 
 
@@ -424,10 +424,36 @@ Portfolio style supplemental - sandbox
 /* set height for mobile div container */
 @media (max-width:480px) {.divstack {height:380px;}}
 
-/* set 50% height for double wide container */
-@media (min-width:720px) {.dblwide {width:200%;}}
+
 
 .vxdtesterstroke{border:1px solid red;}
+
+
+/* text over image */
+.imggwrap {
+	  /* force the div to properly contain the floated images: */
+	  position:relative;
+	  float:left;
+	  clear:none;
+	  overflow:hidden;
+	}
+	.imggwrap img {
+	  position:relative;
+	  z-index:1;
+	}
+	.imggwrap .desc {
+	  display:block;
+	  position:absolute;
+	  width:100%;
+	  top:10%;
+	  left:0;
+	  z-index:2;
+	  text-align:center;
+	}
+
+
+
+
 
 
 /*align items vertically -- .aligner=parent, .aligner-...=child */
