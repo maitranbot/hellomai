@@ -323,6 +323,7 @@ a.expand { display: block; position: absolute; z-index: 100; text-align: center;
 .img2 img { width: -webkit-calc(100% + 40px) !important; width: calc(100% + 40px) !important; -webkit-transition: opacity 0.35s, -webkit-transform 0.35s; transition: opacity 0.35s, transform 0.35s; -moz-transition: opacity 0.35s, -moz-transform 0.35s; -o-transition: opacity 0.35s, -o-transform 0.35s; }
 .overlay2 { display: block; position: absolute; z-index: 20; background: rgba(100, 194, 158, 0.8); overflow: hidden; transition: all 0.5s; -webkit-transition: all 0.5s; -moz-transition: all 0.5s; -o-transition: all 0.5s; }
 
+.mask:hover{display:block; position:absolute; z-index:20; width=100%; height=100%; background:rgba(100,194,158,0.8); overflow:hidden; transition:all 0.5s; -webkit-transition:all 0.5s; -moz-transition:all 0.5s; -o-transition: all 0.5s;}
 
 
 /* ==========================================================================
