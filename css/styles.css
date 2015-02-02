@@ -637,9 +637,11 @@ overflow:hidden;}
             -webkit-transition: opacity .25s ease;
             -moz-transition: opacity .25s ease;}
 
-.boxtest:hover .overlaytest{
+.boxtest:hover .overlaytest:hover{
             opacity:1;}
-
+.abcd:hover 
+{ opacity:0.5;
+    background-color:blue;}
 .plustest{ 
             font-family:lato;
             font-weight:400;
