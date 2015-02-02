@@ -41,6 +41,7 @@ a:focus { outline: thin dotted; }
 /* * Improves readability when focused and also mouse hovered in all browsers. */
 a:active, a:hover { outline: 0; }
 
+.apadding {padding-left: 0px;padding-right: 0px;}
 
 /* ==========================================================================
 Typography
@@ -194,7 +195,7 @@ p { color: #8c9398; word-spacing: 1px; line-height: 25px; font-size: 14px; }
 h2 { font-size: 15px; color: #353535; text-transform: uppercase; font-weight: bold; }
 h2::after { content: " "; border: solid 2px #3dc9b3; display: block; width: 35px; margin: 25px auto; }
 h9::after { content: " "; border: solid 2px #f07057; display: block; width: 135px; margin-top: 15px;}
-h11::after { content: " "; border: solid 2px #FFFFFF; display: block; margin: 0 auto; width: 135px; margin-top: 15px;}
+h11::after { content: " "; border: solid 2px #FFFFFF; display: block; margin: 0 auto; width: 75px; margin-top: 15px;}
 .section-padding { padding: 90px 0 100px }
 .section2-padding { padding: 110px 0 150px }
 .dark-bg { background: #f3f5f8; }
@@ -318,6 +319,9 @@ a.expand { display: block; position: absolute; z-index: 100; text-align: center;
 .portfoliotext{text-align:center;}
 .pplogo{margin-bottom: 40px;}
 
+.effects2 .img { position: relative; position: relative; z-index: 1; overflow: hidden; }
+.img2 img { width: -webkit-calc(100% + 40px) !important; width: calc(100% + 40px) !important; -webkit-transition: opacity 0.35s, -webkit-transform 0.35s; transition: opacity 0.35s, transform 0.35s; -moz-transition: opacity 0.35s, -moz-transform 0.35s; -o-transition: opacity 0.35s, -o-transform 0.35s; }
+.overlay2 { display: block; position: absolute; z-index: 20; background: rgba(100, 194, 158, 0.8); overflow: hidden; transition: all 0.5s; -webkit-transition: all 0.5s; -moz-transition: all 0.5s; -o-transition: all 0.5s; }
 
 
 
@@ -580,7 +584,66 @@ ul.legals li:last-child::after { content: ""; }
 .footertxt h1 {font-family: lato; font-weight: 400; letter-spacing:0; text-align:center; font-size: 1em; color:#a1a9b0;}
 .footertxt span{font-weight:700;}
 
+/* ==========================================================================
+Sandbox
+========================================================================== */
+/* color overlay 
+.boxtest 
+       {  width:300px;
+          height:200px;
+          box-shadow:inset 1px 1px 40px 0 rgba(0,0,0,.45);
+          border-bottom:2px solid #fff;
+          border-right:2px solid #fff;
+          margin:5% auto 0 auto; 
+          background:url(http://ianfarb.com/wp-content/uploads/2013/10/nicholas-hodag.jpg);
+  background-size:cover;
+border-radius:5px;
+overflow:hidden;}
 
+.overlaytest    {  background:rgba(0,0,0,.75);
+               text-align:center;
+               padding:45px 0 66px 0;
+               opacity:0;
+               -webkit-transition: opacity .25s ease;
+-moz-transition: opacity .25s ease;}
+
+.boxtest:hover .overlaytest {
+               opacity:1;}
+
+.plustest       {  font-family:Helvetica;
+               font-weight:900;
+               color:rgba(255,255,255,.85);
+               font-size:96px;}
+
+*/
+
+/* Color overlay style 2 */
+.boxtest{  
+            width:300px;
+            height:200px;
+            border-bottom:2px solid #fff;
+            border-right:2px solid #fff;
+            margin:5% auto 0 auto; 
+            background:url(http://ianfarb.com/wp-content/uploads/2013/10/nicholas-hodag.jpg);
+            background-size:cover;
+            overflow:hidden;}
+
+.overlaytest{  
+            background:rgba(225,230,30,.75);
+            text-align:center;
+            padding:75px 0 100px 0;
+            opacity:0;
+            -webkit-transition: opacity .25s ease;
+            -moz-transition: opacity .25s ease;}
+
+.boxtest:hover .overlaytest{
+            opacity:1;}
+
+.plustest{ 
+            font-family:lato;
+            font-weight:400;
+            color:rgba(255,255,255,.85);
+            font-size:18px;}
 
     
 /* ==========================================================================
