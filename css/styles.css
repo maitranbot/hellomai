@@ -639,15 +639,52 @@ overflow:hidden;}
 
 .boxtest:hover .overlaytest:hover{
             opacity:1;}
+
+
+.abcd{
+    height: 100%; background:yellow;}
+
 .abcd:hover 
-{ opacity:0.5;
-    background-color:green;}
+{opacity:1; background-color:purple;height:100%;}
+
+.shoppingContainer{margin:auto; align-content:center;}
+.shoppingContainer2{margin:auto; text-align:center;}
+.shoppingContainertext{position:absolute;text-align:center;}
+.shoppingContainer2text{position:absolute;}
+
+
+
 
 .plustest{ 
             font-family:lato;
             font-weight:400;
             color:rgba(255,255,255,.85);
             font-size:18px;}
+
+
+
+html { height: 100%; }
+body{
+    height: 100%;
+
+}
+#imgT{
+    width:100%;
+    border:thin solid blue;
+    display:block;
+}
+#divL{
+	width:20%;
+    height: 100%;
+	background:#008080;
+    float:left;
+}
+#divR{
+	width:80%;
+    height: 100%;
+	background:blue;
+    float:left;
+}
 
     
 /* ==========================================================================
