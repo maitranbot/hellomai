@@ -647,19 +647,15 @@ overflow:hidden;}
 .abcd:hover 
 {opacity:1; background-color:purple;height:100%;}
 
-.shoppingContainer{margin:auto; align-content:center;}
-.shoppingContainer2{margin:auto; text-align:center;}
-.shoppingContainertext{position:absolute;text-align:center;}
-.shoppingContainer2text{position:absolute;}
 
 
 
+.imgcontainer {position:absolute; margin: 0 auto;}
+/*.imgcontainer .label{visibility: hidden;}*/
+.imgcontainer:hover .label{visibility:visible;}
+.containerimg{visibility: visible; margin: 0 auto; position:absolute;}
+.label{visibility:hidden; margin:0 auto;position:absolute; background-color:pink;}
 
-.plustest{ 
-            font-family:lato;
-            font-weight:400;
-            color:rgba(255,255,255,.85);
-            font-size:18px;}
 
 
 
